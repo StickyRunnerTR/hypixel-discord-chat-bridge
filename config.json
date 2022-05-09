@@ -4,16 +4,16 @@
     "port": 25565
   },
   "minecraft": {
-    "username": "yourUsername",
-    "password": "yourPassword",
-    "lobbyHolder": "ignUsername",
-    "accountType": "mojang"
+    "username": mc_mail,
+    "password": mc_password,
+    "lobbyHolder": mc_username,
+    "accountType": "microsoft"
   },
   "discord": {
-    "token": "discordBotToken",
-    "channel": "channelId",
-    "commandRole": "roleId",
-    "ownerId": "ownerId",
+    "token": dc_token,
+    "channel": dc_channel_id,
+    "commandRole": dc_role_id,
+    "ownerId": dc_mod_role_id,
     "prefix": "!",
     "messageMode": "bot"
   },
